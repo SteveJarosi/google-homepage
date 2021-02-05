@@ -1,19 +1,25 @@
-.google-logo {
-   
+* {
+    box-sizing: border-box;
 }
-/*.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    heigth: 100%;*/
+.center {
+    
+    height: 100%;
     
   }
-  /*.middle {
-      display: flex;
-      align-content: center;
-      align-items: center;
-  }*/
+  .middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  #google_search {
+      font-size: large;
+      width: 40vw;
+      border-radius: 15px;
+  }
   .separation {
-      display: flex;
-      height: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
   }
